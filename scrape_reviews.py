@@ -6,9 +6,9 @@ from langdetect import detect, LangDetectException
 import pandas as pd
 # Configuration
 APP_ID = 'in.indwealth'
-TARGET_RATINGS = [1, 2, 3]
-TARGET_COUNT_PER_RATING = 50
-WEEKS_BACK = 15
+TARGET_RATINGS = [1, 2, 3, 4, 5]
+TARGET_COUNT_PER_RATING = 60
+WEEKS_BACK = 20
 MIN_WORD_COUNT = 10
 def clean_text(text):
     """

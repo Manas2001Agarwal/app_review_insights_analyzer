@@ -1,3 +1,11 @@
 google-play-scraper
 pandas
 langdetect
+bertopic
+google-cloud-aiplatform
+groq
+scikit-learn
+umap-learn
+hdbscan
+openai
+sentence-transformers
