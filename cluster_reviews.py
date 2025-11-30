@@ -8,6 +8,9 @@ from umap import UMAP
 from sklearn.feature_extraction.text import CountVectorizer
 from sentence_transformers import SentenceTransformer
 import openai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Configuration
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
@@ -85,7 +88,12 @@ def cluster_reviews():
         print(f"\n--- Topic {topic_id} ---")
         topic_info = topic_model.get_topic(topic_id)
         
-        theme_name = "Unknown"
+        # Get count for this topic
+        # freq is a dataframe with columns Topic, Count, Name, ...
+        # We filter where Topic == topic_id
+        topic_count = int(freq[freq['Topic'] == topic_id]['Count'].values[0])
+        
+        theme_name = "Unknown Theme"
         keywords = []
         
         if topic_info:
@@ -95,20 +103,28 @@ def cluster_reviews():
             # Get label from Groq
             try:
                 # topic_aspects_ returns a list of labels for the topic
-                labels = topic_model.topic_aspects_["Groq"][topic_id]
-                # It might be a list of lists or just a list depending on how many labels requested
-                # Usually it's [label]
-                if isinstance(labels, list) and len(labels) > 0:
-                    theme_name = labels[0]
-                    # If it's a tuple/list inside
-                    if isinstance(theme_name, (list, tuple)):
-                         theme_name = theme_name[0]
+                if "Groq" in topic_model.topic_aspects_:
+                    labels = topic_model.topic_aspects_["Groq"][topic_id]
+                    # It might be a list of lists or just a list depending on how many labels requested
+                    # Usually it's [label]
+                    if isinstance(labels, list) and len(labels) > 0:
+                        theme_name = labels[0]
+                        # If it's a tuple/list inside
+                        if isinstance(theme_name, (list, tuple)):
+                             theme_name = theme_name[0]
+                    else:
+                        theme_name = str(labels)
                 else:
-                    theme_name = str(labels)
+                    print("Groq labels not found in topic_aspects_")
                 
                 print(f"Groq Label: {theme_name}")
             except Exception as e:
                 print(f"Could not retrieve Groq label: {e}")
+            
+            # Fallback if theme_name is still "Unknown Theme" or empty
+            if not theme_name or theme_name == "Unknown Theme" or theme_name.strip() == "":
+                theme_name = ", ".join(keywords[:3]).title()
+                print(f"Fallback Label: {theme_name}")
             
             # Get representative docs with metadata
             print("Representative Reviews:")
@@ -131,6 +147,7 @@ def cluster_reviews():
             
             results_data.append({
                 "Theme Name": theme_name,
+                "Number of Reviews": topic_count,
                 "Keywords": keywords,
                 "Representative Reviews": rep_reviews_data
             })
