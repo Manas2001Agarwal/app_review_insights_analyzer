@@ -1,18 +1,54 @@
 [
     {
-        "Theme Name": "IndMoney Stock Trading Feedback",
-        "Number of Reviews": 136,
+        "Theme Name": "UPI and recharge issues",
+        "Number of Reviews": 94,
         "Keywords": [
             "app",
+            "upi",
+            "account",
+            "money",
+            "dont",
+            "support",
+            "use",
+            "issue",
+            "customer",
+            "device"
+        ],
+        "Representative Reviews": [
+            {
+                "User Name": "Jayantilal Panchal",
+                "Date": "2025-08-06 11:16:31",
+                "Rating": 3,
+                "Review": "Giving 3 stars, because sometimes the app doesnt support UPI payments and says to update to the latest version or to reopen the app, even though the app is at the latest version. Even after reopening the app the same message is displayed and I cant make any UPI payments. Please resolve this issue by providing a new version for this app."
+            },
+            {
+                "User Name": "AJ",
+                "Date": "2025-07-28 09:36:04",
+                "Rating": 2,
+                "Review": "Hey, today this app shows this devicemy device is rooted or compromised. App will not work on compromised device due to security reasons. I dont know what you are building but you should test it before deployment to live audience. my phone is never rooted, I tried with another phone as well it show same message. lets assume my phone is compromised but 3 people in my house use indMoney and everyone sees this device is rooted. No, something is not working at your end, please check."
+            },
+            {
+                "User Name": "sunilkumar tammana",
+                "Date": "2025-11-23 11:25:32",
+                "Rating": 1,
+                "Review": "I used the INDmoney app to complete a mobile recharge, but the recharge was not processed. It has been over 48 hours, and the status is still showing as pending. However, the amount has already been deducted from my account. I tried waiting, but nothing has been updated. This is very disappointing and inconvenient. Please resolve this issue as soon as possible and improve the recharge service worst app dont use this app my sincere request"
+            }
+        ]
+    },
+    {
+        "Theme Name": "All‑in‑One Indian Investment App",
+        "Number of Reviews": 70,
+        "Keywords": [
             "stocks",
-            "option",
-            "stock",
-            "trading",
-            "add",
-            "good",
-            "feature",
             "mutual",
-            "money"
+            "stock",
+            "fund",
+            "indian",
+            "market",
+            "app",
+            "trading",
+            "investment",
+            "order"
         ],
         "Representative Reviews": [
             {
@@ -28,27 +64,63 @@
                 "Review": "Indmoney provide lot of advanced features that your investment or trading journey more easy. This app interface very attractive . This app very fast . IND Money is a all in online solution for stock market. . 20.08.25 IND Money new update for Indian Stocks very impressive . 20.11.25 New update regarding watchlist is good."
             },
             {
-                "User Name": "Himanshu",
-                "Date": "2025-11-12 10:32:14",
-                "Rating": 4,
-                "Review": "Please Fix these issues otherwise great app. 1. when I open a stocks chart it initially show the previous stocks chart I had opened instead of the current stock. Perhaps a delay in the api call is happening tell the tech team to solve it. 2. When a see an option of buying or selling below a stock chart , when I change the option from delivery to intraday it should also show stoploss option there itself,I need to go back to the positions options and add SL which is quite inconvenient."
+                "User Name": "narendra pathak",
+                "Date": "2025-10-30 16:38:52",
+                "Rating": 5,
+                "Review": "nice application because its option for all in one and investment in FD, Insurance and Indian stocks market as well as US stock market . Its good for ipos."
             }
         ]
     },
     {
-        "Theme Name": "INDmoney app support problems",
-        "Number of Reviews": 69,
+        "Theme Name": "App, Track, Option",
+        "Number of Reviews": 53,
         "Keywords": [
             "app",
-            "account",
+            "track",
+            "option",
             "good",
-            "customer",
-            "money",
+            "add",
+            "investments",
+            "chart",
+            "feature",
+            "tracking",
+            "trading"
+        ],
+        "Representative Reviews": [
+            {
+                "User Name": "Mukesh Patil",
+                "Date": "2025-10-28 12:06:52",
+                "Rating": 4,
+                "Review": "I simply like this app. It is well configured to track your investments. Also allows to track your assets and liabilities, goals, helps to invest in mutual funds, shares, FDs, Insurance through multiple ways. It is improving day by day to add more features to have one window solutions to track your portfolio in real sense. I would suggest improvement in recurring or fixed entries for other, private or cash investments."
+            },
+            {
+                "User Name": "Himanshu",
+                "Date": "2025-11-12 10:32:14",
+                "Rating": 4,
+                "Review": "Please Fix these issues otherwise great app. 1. when I open a stocks chart it initially show the previous stocks chart I had opened instead of the current stock. Perhaps a delay in the api call is happening tell the tech team to solve it. 2. When a see an option of buying or selling below a stock chart , when I change the option from delivery to intraday it should also show stoploss option there itself,I need to go back to the positions options and add SL which is quite inconvenient."
+            },
+            {
+                "User Name": "Prakash Kumar Singh",
+                "Date": "2025-11-03 23:28:15",
+                "Rating": 2,
+                "Review": "Pros 1. Best user interface for options trading. 2. Us stocks buying feature. 3. Mind feature king of the features. Cons 1. Trading views chart missing in flash mode. 2. Option chain windows takes lot of space in web mode. Solution could be auto hide or manual hide feature in web mode 3. Advanced option chain option should be provided such as dhan, upstox. For other greeks 4. Paper trading feature or bactesting feature missing. 5. App crash so frequent."
+            }
+        ]
+    },
+    {
+        "Theme Name": "Investment App Usability Issues",
+        "Number of Reviews": 40,
+        "Keywords": [
+            "app",
+            "good",
+            "ui",
+            "easy",
             "use",
-            "support",
-            "service",
-            "payment",
-            "team"
+            "better",
+            "sip",
+            "nice",
+            "app good",
+            "ui better"
         ],
         "Representative Reviews": [
             {
@@ -58,69 +130,33 @@
                 "Review": "I have been using this app for a while time the app is so good comparing with other... And FO is also entry and exit with real time price.. What A app and what a apps team technical and customer Really want to say just within a week my problem was resolved against the UPI thankyou team for taking my difficult as serious and give me the best response as soon as you can with resolving it... Wonderful App with the Wonderful team support"
             },
             {
-                "User Name": "varalakshmi villa",
-                "Date": "2025-11-11 13:03:30",
-                "Rating": 1,
-                "Review": "junk app and worst ever support team, just for sake of norms they update tickets without any helpful progress on actual issue. i want to give negative rating. They are still playing with customer deposit money without crediting to wallet, I have initiated deposit of 2L on 30Oct, till now it is not yet credited to my wallet, first they said 6Nov, now they are saying it will take upto 12Nov my tkt2852554, what are they doing with customers money? dont use this app for your investment plans"
+                "User Name": "prajeesh karayil",
+                "Date": "2025-09-19 09:57:02",
+                "Rating": 2,
+                "Review": "Interface wise this app is good, but the number of times the app was unable to open. showing an error message like your device is rooted. This app will not work. without proper testing they are pushing the app to the play store. In another scenario place buy order button is enabled even without sufficient fund. Today 19092025 app not loading the flash mode its showing a blank page, also If we configured any SL or Target we have to cancel that before selling.So I am not recommended forFO"
             },
             {
-                "User Name": "sunilkumar tammana",
-                "Date": "2025-11-23 11:25:32",
+                "User Name": "Sai Sardesai",
+                "Date": "2025-11-25 18:59:53",
                 "Rating": 1,
-                "Review": "I used the INDmoney app to complete a mobile recharge, but the recharge was not processed. It has been over 48 hours, and the status is still showing as pending. However, the amount has already been deducted from my account. I tried waiting, but nothing has been updated. This is very disappointing and inconvenient. Please resolve this issue as soon as possible and improve the recharge service worst app dont use this app my sincere request"
+                "Review": "God knows how people are rating this good, started investing here thinking it would be good but my experience is just getting worse. App has glitches, the UX is pathetic. Its just shiny app with fancy marketing I guess. The SIP features are so confusing and complicated. This product is made by too tech savvy idiots who dont care about customer satisfaction and usability Update After update this app is now even worse, I hit the buy button on any ticker and the app crashes"
             }
         ]
     },
     {
-        "Theme Name": "App falsely detects rooted device",
-        "Number of Reviews": 52,
-        "Keywords": [
-            "app",
-            "upi",
-            "device",
-            "working",
-            "rooted",
-            "phone",
-            "device rooted",
-            "issue",
-            "update",
-            "use"
-        ],
-        "Representative Reviews": [
-            {
-                "User Name": "Chinmay PARDESHI (VinayaK Pardeshi)",
-                "Date": "2025-07-28 09:40:56",
-                "Rating": 2,
-                "Review": "i have been using this app on my device for years and suddenly after updating it says that device is rooted or compromised. Before update it was working now it is not opening fix this please. I havent rooted my mobile and there is no virus on my mobile."
-            },
-            {
-                "User Name": "Jayantilal Panchal",
-                "Date": "2025-08-06 11:16:31",
-                "Rating": 3,
-                "Review": "Giving 3 stars, because sometimes the app doesnt support UPI payments and says to update to the latest version or to reopen the app, even though the app is at the latest version. Even after reopening the app the same message is displayed and I cant make any UPI payments. Please resolve this issue by providing a new version for this app."
-            },
-            {
-                "User Name": "AJ",
-                "Date": "2025-07-28 09:36:04",
-                "Rating": 2,
-                "Review": "Hey, today this app shows this devicemy device is rooted or compromised. App will not work on compromised device due to security reasons. I dont know what you are building but you should test it before deployment to live audience. my phone is never rooted, I tried with another phone as well it show same message. lets assume my phone is compromised but 3 people in my house use indMoney and everyone sees this device is rooted. No, something is not working at your end, please check."
-            }
-        ]
-    },
-    {
-        "Theme Name": "NPS tracking email integration issue",
-        "Number of Reviews": 7,
+        "Theme Name": "Link NPS with non‑Gmail accounts",
+        "Number of Reviews": 13,
         "Keywords": [
             "nps",
-            "track nps",
-            "track",
-            "gmail",
-            "link",
-            "added",
             "account",
-            "tracking",
-            "nps account",
-            "link nps"
+            "gmail",
+            "id",
+            "track nps",
+            "login",
+            "linked",
+            "track",
+            "link",
+            "added"
         ],
         "Representative Reviews": [
             {
@@ -140,42 +176,6 @@
                 "Date": "2025-10-29 10:27:44",
                 "Rating": 4,
                 "Review": "no option to track, NPS with mail id other then gmail. NPS linked mail id is with Outlook so cant track NPS."
-            }
-        ]
-    },
-    {
-        "Theme Name": "Login, Account, Number",
-        "Number of Reviews": 6,
-        "Keywords": [
-            "login",
-            "account",
-            "number",
-            "id",
-            "email id",
-            "email",
-            "sign",
-            "gmail",
-            "previous",
-            "help"
-        ],
-        "Representative Reviews": [
-            {
-                "User Name": "fathimathul zohara",
-                "Date": "2025-11-21 11:23:04",
-                "Rating": 3,
-                "Review": "I need to change my number and add another account but there is no option there, I cant even delete my account to log in again with another number. What am I supposed to do now?"
-            },
-            {
-                "User Name": "Raj Uddin",
-                "Date": "2025-11-16 09:16:55",
-                "Rating": 1,
-                "Review": "unable to login kindly help me. The problem is all about my previous gmail account which is not available"
-            },
-            {
-                "User Name": "Abhishek Singh",
-                "Date": "2025-09-28 19:49:34",
-                "Rating": 2,
-                "Review": "i forget my previous mobile no. i cant login on app can you help me to login with email id because email id was same that time"
             }
         ]
     }

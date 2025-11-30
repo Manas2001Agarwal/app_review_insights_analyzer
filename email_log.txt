@@ -1,0 +1,4 @@
+[2025-11-30 20:14:11] Status: FAILED | Subject: Weekly Product Pulse – INDmoney (Nov 23–Nov 30) | Recipient: manasagarwal2512@gmail.com
+[2025-11-30 20:14:43] Status: FAILED | Subject: Weekly Product Pulse – INDmoney (Nov 23–Nov 30) | Recipient: manasagarwal2512@gmail.com
+[2025-11-30 20:18:24] Status: SUCCESS | Subject: Weekly Product Pulse – INDmoney (Nov 23–Nov 30) | Recipient: manasagarwal2512@gmail.com
+[2025-11-30 20:59:26] Status: SUCCESS | Subject: Weekly Product Pulse – INDmoney (Nov 23–Nov 30) | Recipient: manasagarwal2512@gmail.com

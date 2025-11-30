@@ -1,0 +1,34 @@
+2025-11-30 20:58:01,261 - INFO - Starting Weekly Product Pulse Pipeline...
+2025-11-30 20:58:01,261 - INFO - Step 1: Scraping Reviews...
+2025-11-30 20:58:14,085 - INFO - Step 1 Complete.
+2025-11-30 20:58:14,085 - INFO - Step 2: Clustering Reviews...
+2025-11-30 20:58:14,123 - INFO - Use pytorch device_name: mps
+2025-11-30 20:58:14,123 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 20:58:26,735 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:58:27,277 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:58:27,886 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:58:28,504 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:58:29,090 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:58:29,141 - INFO - Step 2 Complete.
+2025-11-30 20:58:29,141 - INFO - Step 3: Generating Pulse Report...
+2025-11-30 20:58:31,694 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:58:31,712 - ERROR - Step 3 Failed: Generating pulse report failed. Aborting.
+2025-11-30 20:58:54,870 - INFO - Starting Weekly Product Pulse Pipeline...
+2025-11-30 20:58:54,870 - INFO - Step 1: Scraping Reviews...
+2025-11-30 20:59:04,606 - INFO - Step 1 Complete.
+2025-11-30 20:59:04,606 - INFO - Step 2: Clustering Reviews...
+2025-11-30 20:59:04,630 - INFO - Use pytorch device_name: mps
+2025-11-30 20:59:04,630 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-30 20:59:15,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:16,153 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:16,693 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:17,205 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:17,773 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:17,833 - INFO - Step 2 Complete.
+2025-11-30 20:59:17,834 - INFO - Step 3: Generating Pulse Report...
+2025-11-30 20:59:21,022 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:21,026 - INFO - Step 3 Complete.
+2025-11-30 20:59:21,026 - INFO - Step 4: Sending Weekly Email...
+2025-11-30 20:59:22,904 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-30 20:59:26,926 - INFO - Step 4 Complete.
+2025-11-30 20:59:26,926 - INFO - Pipeline Completed Successfully.

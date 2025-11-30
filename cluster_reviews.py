@@ -21,7 +21,7 @@ def load_reviews(filepath):
         reviews = json.load(f)
     return reviews
 
-def cluster_reviews():
+def run():
     # 1. Load Data
     reviews = load_reviews('reviews.json')
     review_texts = [r['text_review'] for r in reviews]
@@ -157,6 +157,7 @@ def cluster_reviews():
     with open(output_json, 'w', encoding='utf-8') as f:
         json.dump(results_data, f, indent=4, ensure_ascii=False)
     print(f"\nDetailed results saved to {output_json}")
+    return True
 
 if __name__ == "__main__":
-    cluster_reviews()
+    run()

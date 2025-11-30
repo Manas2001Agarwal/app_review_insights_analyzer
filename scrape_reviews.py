@@ -25,7 +25,7 @@ def is_english(text):
         return detect(text) == 'en'
     except LangDetectException:
         return False
-def scrape_reviews():
+def run():
     all_reviews = []
     
     # Calculate date threshold
@@ -52,7 +52,7 @@ def scrape_reviews():
                 )
             except Exception as e:
                 print(f"Error fetching reviews: {e}")
-                break
+                return False
             if not result:
                 break
             for review in result:
@@ -106,5 +106,6 @@ def scrape_reviews():
     
     print(f"Total reviews saved: {len(all_reviews)}")
     print(f"Saved to {output_file}")
+    return True
 if __name__ == "__main__":
-    scrape_reviews()
+    run()
